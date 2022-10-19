@@ -11,5 +11,26 @@ If the dashboard were going to be published to a publicly accessible dashboard i
 
 There is also a seperate API call to http://api.ipstack.com. The API call to IPStack is for geolocation IP data.  Replace the key in the advanced editor (in the Power Bi Template) with your own key if you opt to leverage the two pages within the template that show IP location. There is a free version available for this tool. You can leverage a seperate geolocation database but it will require modification of data gathering utility.
 
+
+**Troubleshooting**
+-Connectors
+You may need to enable connectors for the geolocation api to work
+https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-connector-extensibility
+
+-Maps
+In order for the maps visuals to work the setting will need to be enabled. 
+https://learn.microsoft.com/en-us/azure/azure-maps/power-bi-visual-get-started#azure-maps-power-bi-visual-behavior-and-requirements 
+
+-Clear Cache
+https://support.biconnector.com/support/solutions/articles/8000072804-how-to-clear-cache-of-power-bi-desktop-
+
+-API Connection 
+Basics:
+https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/api-power-bi?view=o365-worldwide
+
+Also, there is a set of legacy conditional access settings in the Microsoft Endpoint Management Portal that requires your machine be Hybrid or Azure AD Joined to leverage the api directly. If you cannot connect due to these constraints with Power BI desktop because of this you can remove the classic policy. It is reccommended that you add back a modern policy doing something very similar.  
+https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/classic-conditional-access-policy-for-defender-atp/m-p/1883297
+
+
 **Disclaimer**
 This is provided as is and comes with no warranty or gaurantee. 
