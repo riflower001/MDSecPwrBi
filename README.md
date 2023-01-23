@@ -33,7 +33,7 @@ https://support.biconnector.com/support/solutions/articles/8000072804-how-to-cle
 Basics:
 https://learn.microsoft.com/en-us/microsoft-365/security/defender-endpoint/api-power-bi?view=o365-worldwide
 
-There is also a set of legacy conditional access settings in the Microsoft Endpoint Management Portal that requires your machine be Hybrid or Azure AD Joined to leverage the api directly. If you cannot connect due to these constraints with Power BI desktop because of this you can remove the classic policy. It is reccommended that you add back a modern policy doing something very similar.  
+There is also a set of legacy conditional access settings in the Microsoft Endpoint Management Portal that requires your machine be Hybrid or Azure AD Joined to leverage the api directly. If you cannot connect due to these constraints with Power BI desktop you can remove the classic policy. It is reccommended that you add back a modern policy doing something very similar.  
 
 https://techcommunity.microsoft.com/t5/microsoft-defender-for-endpoint/classic-conditional-access-policy-for-defender-atp/m-p/1883297
 
