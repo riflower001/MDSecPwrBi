@@ -9,8 +9,6 @@ Power BI Desktop will need to be installed. Power Bi Desktop is Free. It is idea
 
 If the dashboard were going to be published to a publicly accessible dashboard it would require a Power Bi Cal (licenses). The benefit to publishing the dashboard is that it would be accessible to individuals without the Power BI Desktop software installed and that permissions to the dashboard could be set on the dashboard. 
 
-There is also a seperate API call to http://api.ipstack.com. The API call to IPStack is for geolocation IP data.  Replace the key in the advanced editor (in the Power Bi Template) with your own key if you opt to leverage the two pages within the template that show IP location. There is a free version available for this tool. You can leverage a seperate geolocation database but it will require modification of data gathering utility.
-
 
 **Troubleshooting**
 
